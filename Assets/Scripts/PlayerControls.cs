@@ -61,7 +61,7 @@ public class PlayerControls : MonoBehaviour
           // if the player collides with the exit bush, the they get transported out of the game (goes to end screen)
         } else if (other.gameObject.name == "ExitBush")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 
